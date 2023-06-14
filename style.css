@@ -6,7 +6,7 @@
   }
   
   /* Estilos para el título */
-  h1 {
+  .h1 {
     text-align: center;
     font-size: 36px;
     color: #333;
@@ -14,13 +14,13 @@
   }
   
   /* Estilos para el formulario de búsqueda */
-  #search-form {
+  .search-form {
     display: flex;
     align-items: center;
     justify-content: center;
   }
   
-  #search-input {
+  .search-input {
     width: 300px;
     height: 40px;
     border: 1px solid #ccc;
@@ -28,7 +28,7 @@
     padding: 10px;
   }
   
-  #search-button {
+  .search-button {
     width: 100px;
     height: 40px;
     border: none;
@@ -39,11 +39,11 @@
   }
   
   /* Estilos para los resultados de la búsqueda */
-  #search-results {
+  .search-results {
     list-style-type: none;
   }
   
-  #search-results li {
+  .search-results li {
     width: 80%;
     margin: auto;
     margin-bottom: 20px;
@@ -51,15 +51,15 @@
     border: 1px solid #ccc;
   }
   
-  #search-results h3 {
+  .search-results h3 {
     font-size: 24px;
   }
   
-  #search-results p {
+  .search-results p {
     font-size: 18px;
   }
   
-  #search-results button {
+  .search-results button {
     width: 150px;
     height: 40px;
     border: none;
@@ -69,11 +69,11 @@
   }
   
   /* Estilos para el carrito de compras */
-  #cart {
+  .cart {
     width: 80%;
     margin: auto;
   }
   
-  #cart p {
+  .cart p {
    font-size:18px; 
   }
